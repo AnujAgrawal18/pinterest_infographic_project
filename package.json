@@ -1,0 +1,16 @@
+{
+  "name": "infographic-screenshot-backend",
+  "version": "1.0.0",
+  "description": "Backend server to take screenshot of infographic page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "infographic-screenshot-backend": "file:",
+    "pinterest-screenshot-backend": "file:",
+    "puppeteer": "^21.3.8"
+  }
+}
